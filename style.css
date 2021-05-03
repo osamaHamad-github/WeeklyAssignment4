@@ -71,7 +71,9 @@ th:hover { background-color: rgb(255, 242, 234); }
   font-weight: bold;
 }
 
-#button-1:hover, #button-2:hover, #button-3:hover {
+#button-1:hover,
+#button-2:hover,
+#button-3:hover {
   color: rgb(255, 206, 173);
   background-color: rgb(2, 10, 77);
   font-family: Verdana, 'Segoe UI', Tahoma, Geneva, sans-serif;
@@ -147,5 +149,5 @@ th:hover { background-color: rgb(255, 242, 234); }
   width: 15%;
   height: auto;
   float: right;
-  margin: 10px
+  margin: 10px;
 }
