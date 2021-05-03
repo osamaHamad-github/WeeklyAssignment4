@@ -10,6 +10,10 @@ button {
   font-size: 20px;
 }
 
+body {
+  margin: 0;
+}
+
 th:hover { background-color: rgb(255, 242, 234); }
 
 .menu-name {
@@ -23,11 +27,15 @@ th:hover { background-color: rgb(255, 242, 234); }
 .menu-bar {
   background-color: rgb(255, 214, 186);
   padding: 15px;
+  position: sticky;
+  top: 0;
 }
 
 .page {
   background-color: rgb(250, 249, 249);
   padding: 75px;
+  margin: 15px;
+  overflow: hidden;
 }
 
 .page-title {
@@ -42,14 +50,28 @@ th:hover { background-color: rgb(255, 242, 234); }
   line-height: 1.5;
 }
 
-.about-button {
+#button-1 {
   color: rgb(65, 76, 156);
   background-color: rgb(255, 206, 173);
   font-family: Verdana, 'Segoe UI', Tahoma, Geneva, sans-serif;
   font-weight: bold;
 }
 
-.about-button:hover {
+#button-2 {
+  color: rgb(65, 76, 156);
+  background-color: rgb(255, 206, 173);
+  font-family: Verdana, 'Segoe UI', Tahoma, Geneva, sans-serif;
+  font-weight: bold;
+}
+
+#button-3 {
+  color: rgb(65, 76, 156);
+  background-color: rgb(255, 206, 173);
+  font-family: Verdana, 'Segoe UI', Tahoma, Geneva, sans-serif;
+  font-weight: bold;
+}
+
+#button-1:hover, #button-2:hover, #button-3:hover {
   color: rgb(255, 206, 173);
   background-color: rgb(2, 10, 77);
   font-family: Verdana, 'Segoe UI', Tahoma, Geneva, sans-serif;
@@ -78,6 +100,7 @@ th:hover { background-color: rgb(255, 242, 234); }
 .invention-image {
   height: 25%;
   width: 25%;
+  float: right;
 }
 
 #linus-image {
@@ -100,4 +123,29 @@ th:hover { background-color: rgb(255, 242, 234); }
 #button-header {
   color: rgb(77, 83, 138);
   font-size: 25px;
+}
+
+.inventions-text {
+  color: rgb(89, 93, 141);
+  font-size: 20px;
+  font-family: Georgia, Cambria, Cochin, Times, 'Times New Roman', serif;
+  line-height: 1.5;
+  width: 75%;
+  float: left;
+}
+
+#recog-text {
+  color: rgb(89, 93, 141);
+  font-size: 20px;
+  font-family: Georgia, Cambria, Cochin, Times, 'Times New Roman', serif;
+  line-height: 1.5;
+  float: left;
+  width: 70%;
+}
+
+.recog-image {
+  width: 15%;
+  height: auto;
+  float: right;
+  margin: 10px
 }

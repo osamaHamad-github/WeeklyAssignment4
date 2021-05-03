@@ -1,4 +1,7 @@
-/* eslint-disable no-unused-vars */
+document.getElementById('button-1').addEventListener('click', githubButton)
+document.getElementById('button-2').addEventListener('click', wikiButton)
+document.getElementById('button-3').addEventListener('click', twitterButton)
+
 // function to go to linus' github
 function githubButton () {
   window.location.assign('https://github.com/torvalds')
