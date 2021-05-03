@@ -1,0 +1,103 @@
+a {
+  text-decoration: none;
+  color: rgb(108, 119, 153);
+}
+
+button {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+th:hover { background-color: rgb(255, 242, 234); }
+
+.menu-name {
+  display: inline-block;
+  margin-right: 20px;
+  color: rgb(108, 119, 153);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+.menu-bar {
+  background-color: rgb(255, 214, 186);
+  padding: 15px;
+}
+
+.page {
+  background-color: rgb(250, 249, 249);
+  padding: 75px;
+}
+
+.page-title {
+  color: rgb(77, 83, 138);
+  font-size: 70px;
+}
+
+.page-text {
+  color: rgb(89, 93, 141);
+  font-size: 20px;
+  font-family: Georgia, Cambria, Cochin, Times, 'Times New Roman', serif;
+  line-height: 1.5;
+}
+
+.about-button {
+  color: rgb(65, 76, 156);
+  background-color: rgb(255, 206, 173);
+  font-family: Verdana, 'Segoe UI', Tahoma, Geneva, sans-serif;
+  font-weight: bold;
+}
+
+.about-button:hover {
+  color: rgb(255, 206, 173);
+  background-color: rgb(2, 10, 77);
+  font-family: Verdana, 'Segoe UI', Tahoma, Geneva, sans-serif;
+}
+
+.timeline-header {
+  color: rgb(21, 28, 94);
+  font-size: 25px;
+  font-family: Courier, 'Courier New', monospace;
+}
+
+.invention-header {
+  color: rgb(77, 83, 138);
+  font-size: 30px;
+  font-family: Georgia, Cambria, Cochin, Times, 'Times New Roman', serif;
+  line-height: 1.5;
+}
+
+.source-text {
+  color: rgb(2, 10, 77);
+  font-size: 20px;
+  font-family: Georgia, Cambria, Cochin, Times, 'Times New Roman', serif;
+  line-height: 3;
+}
+
+.invention-image {
+  height: 25%;
+  width: 25%;
+}
+
+#linus-image {
+  height: 50%;
+  width: 50%;
+}
+
+#linus-quote {
+  font-size: 25px;
+  line-height: 2;
+}
+
+#achievement-text {
+  color: rgb(89, 93, 141);
+  font-size: 20px;
+  font-family: Georgia, Cambria, Cochin, Times, 'Times New Roman', serif;
+  line-height: 2;
+}
+
+#button-header {
+  color: rgb(77, 83, 138);
+  font-size: 25px;
+}
